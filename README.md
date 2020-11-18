@@ -10,7 +10,7 @@
      'sablon-dosya-adi' => 'ŞABLON ADI'
  );
 
- Sınıfı başlatmak için aşağıda ki şekilde sınıfı her hangi bir değişekene eşitleyin.
+ Sınıfı başlatmak için aşağıda ki şekilde sınıfı "new" anahtar kelimesi ile başlatın.
 
  Toplam 3 parametre almaktadır bunlar
 
@@ -26,7 +26,7 @@
 
  3. Parametre opsiyoneldir. Eğer eklemezseniz dosyanın bulunduğu dizini referans alır yani sayfa şablon dosyalarınız da burada olmalıdır. Eğer bir dizin belirtirseniz. Sayfa şablonlarınız bu dizinde olmalıdır.
 
- $sayfa_sablonlari = new bc_page_template( $sablonlar );
+ new bc_page_template( $sablonlar );
 
  # Use of English
 
@@ -34,11 +34,11 @@
 
  Then add your page template filename and the name of your page template as a key value to a variable as below.
 
- $templates = array (
+ $templates = array(
      'template-file-name' => 'TEMPLATE NAME'
  );
 
- To initialize the class, set the class to any variable as shown below.
+ To initialize the class, start the class with the keyword "new" as follows.
 
  It takes 3 parameters in total.
 
@@ -54,4 +54,4 @@
 
  3. The parameter is optional. If you don't add it, it will reference the directory where the file is located, so your page template files should also be here. If you specify a directory. Your page templates should be in this directory.
 
- $page_templates = new bc_page_template( $templates );
+ new bc_page_template( $sablonlar );
