@@ -13,9 +13,9 @@
  Sınıfı başlatmak için aşağıda ki şekilde sınıfı her hangi bir değişekene eşitleyin.
 
  Toplam 3 parametre almaktadır bunlar
-    - Şablon dosya adı ve şablon adı
-    - Text Domain
-    - Eklenti dizini veya eklenti içerisinde herhangi bir dizin yolu
+ 1. Şablon dosya adı ve şablon adı
+ 2. Text Domain
+ 2. Eklenti dizini veya eklenti içerisinde herhangi bir dizin yolu
 
  1. Parametre zorunludur.
 
@@ -38,9 +38,9 @@
  To initialize the class, set the class to any variable as shown below.
 
  It takes 3 parameters in total.
-    - Template filename and template name
-    - Text Domain
-    - Plugin directory or any directory path within plugin
+ 1. Template filename and template name
+ 2. Text Domain
+ 3. Plugin directory or any directory path within plugin
 
  1. The parameter is required.
 
